@@ -1,5 +1,5 @@
 // function to determine if input is even or odd
-
+/*
 function isEvenOrOdd(num) {
     if (num % 2 == 0) {
         return "Even";
@@ -55,7 +55,7 @@ for (let i = 1; i <= 10; i++) {
         console.log(i);
     }
 }
-
+*/
 
 // Exercise 2: Inverting Arrays
 // invert([1, 2, 3]) return [-1, -2, -3]
