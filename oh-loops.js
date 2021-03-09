@@ -55,7 +55,7 @@ for (let i = 1; i <= 10; i++) {
         console.log(i);
     }
 }
-*/
+
 
 // Exercise 2: Inverting Arrays
 // invert([1, 2, 3]) return [-1, -2, -3]
@@ -84,3 +84,11 @@ function sumArr(arr) {
 }
 
 console.log(sumArr([1, 2, 3]));
+*/
+
+// Array Map
+function invertMap(arr) {
+    return arr.map((el) => -el);
+}
+
+console.log(invertMap([1, 2, 3, 4]));
