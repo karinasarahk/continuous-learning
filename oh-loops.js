@@ -64,9 +64,23 @@ function invert(arr) {
     // container 
     let invertedArr = [];
     for (let i = 0; i < arr.length; 1++) {
-        invertedArr.push(arr[i] * -1);
+        invertedArr.push(arr[i] * -1); // can also invert arr by (-arr[i])
     }
     return invertedArr;
 }
 
 console.log(invert([1, 2, 3, 4]));
+
+// Sum of Arrays
+
+function sumArr(arr) {
+    // container
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        console.log(sum);
+        sum = sum + arr[i];
+    }
+    return sum;
+}
+
+console.log(sumArr([1, 2, 3]));
