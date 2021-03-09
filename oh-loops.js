@@ -57,7 +57,16 @@ for (let i = 1; i <= 10; i++) {
 }
 
 
+// Exercise 2: Inverting Arrays
+// invert([1, 2, 3]) return [-1, -2, -3]
 
-arr = [1, 2, 3]
+function invert(arr) {
+    // container 
+    let invertedArr = [];
+    for (let i = 0; i < arr.length; 1++) {
+        invertedArr.push(arr[i] * -1);
+    }
+    return invertedArr;
+}
 
-
+console.log(invert([1, 2, 3, 4]));
