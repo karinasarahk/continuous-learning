@@ -35,7 +35,28 @@ while (i <= 10) {
     console.log(i);
     i++;
 }
-console.log(process.argv); // what does this do?
+
+// console.log(process.argv[2], process.argv[3]);
+function areOfSquare(s) {
+    console.log(typeof s);
+    return s == 2;
+}
+
+let input = process.argv;
+console.log(input);
+.log(areaOfSquare(input));
+
+
+// Using Modulo
+// remember: For (start; stop/condition; step) {}
+
+for (let i = 1; i <= 10; i++) {
+    if (i % 2 != 0) {
+        console.log(i);
+    }
+}
+
+
 
 arr = [1, 2, 3]
 
