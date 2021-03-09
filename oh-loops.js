@@ -24,12 +24,18 @@ for (;et i = 0; i < arr.length; i++) {
     }
 }
 
-// For Of usage
+// For Of usage --> prints the whole of el array content
 for (let el of arr) {
     console.log(el);
 }
 
-
+// While Loop
+let i = 1;
+while (i <= 10) {
+    console.log(i);
+    i++;
+}
+console.log(process.argv); // what does this do?
 
 arr = [1, 2, 3]
 
