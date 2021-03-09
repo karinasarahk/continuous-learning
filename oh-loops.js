@@ -24,7 +24,10 @@ for (;et i = 0; i < arr.length; i++) {
     }
 }
 
-
+// For Of usage
+for (let el of arr) {
+    console.log(el);
+}
 
 
 
